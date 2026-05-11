@@ -1,5 +1,6 @@
 # Virtual environment
 venv/
+.venv/
 
 # Python cache
 __pycache__/
@@ -13,9 +14,16 @@ data/
 
 # Models
 *.pkl
+*.joblib
 
 # Environment
 .env
+.streamlit/secrets.toml
 
 # Jupyter
 .ipynb_checkpoints/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
